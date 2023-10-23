@@ -12,11 +12,11 @@ Na tento github projekt budeme postupně přidávat vše potřebné pro účastn
 
 <h2>Hardware</h2>
 <ul>
-<li><a href="https://www.laskakit.cz/laskakit-meteo-mini/?variantId=10476">LásskaKit Meteo Mini</a><li>
+<li><a href="https://www.laskakit.cz/laskakit-meteo-mini/?variantId=10476">LásskaKit Meteo Mini</a></li>
 <li><a href="https://www.laskakit.cz/laskakit-bmp280-senzor-tlaku-a-teploty-vzduchu/">LaskaKit BMP280 Senzor tlaku a teploty vzduchu</a></li>
 <li><a href="https://www.laskakit.cz/--sup--stemma-qt--qwiic-jst-sh-4-pin-kabel-5cm/">μŠup, STEMMA QT, Qwiic JST-SH 4-pin kabel - 5cm</a></li>
-<li><a href="https://www.laskakit.cz/baterie-li-po-3-7v-500mah-lipo/">Baterie GeB LiPol Baterie 503035 500mAh 3.7V JST-PH 2.0 (volitelně)</a></li>
-<li><a href="https://www.laskakit.cz/solarni-panel-6v-2w/">Solární panel 6V 2W (volitelně)</a> (Testovací panel s výkonem 0.4W nezvládá dobíjet baterii.)</li>
+<li><a href="https://www.laskakit.cz/baterie-li-po-3-7v-500mah-lipo/">Baterie GeB LiPol Baterie 503035 500mAh 3.7V JST-PH 2.0</a> (volitelně)</li>
+<li><a href="https://www.laskakit.cz/solarni-panel-6v-2w/">Solární panel 6V 2W</a> (volitelně) (Testovací panel s výkonem 0.4W nezvládá dobíjet baterii.)</li>
 
 </ul>
 
