@@ -1,4 +1,4 @@
-Je potřeba stáhnout do Arduino IDE knihovny:__
--Adafruit BME280__
--ESP32AnalogRead__
--WifiManager__
+Je potřeba stáhnout do Arduino IDE knihovny:<br />
+-Adafruit BME280<br />
+-ESP32AnalogRead<br />
+-WifiManager
