@@ -1,0 +1,60 @@
+Část stavby HW
+1)propojíme programátor a základní desku pomocí černého DUPONT konektoru
+2)přepínače programátoru přepneme do poloh 3,3v a VCC out ON
+3)základní desku přepneme do polohy ON
+4)programátor propojíme pomocí USB kabelu do PC
+5)pomocí uŠup kabelu propojíme základní desku a sensor
+
+Část programování
+používáme platformu tmep.cz (CZ platforma, umožňuje vytvořit mapu čidel, hezké grafické zpracování dat, spousta bočních výpočtů, hezký výstup pro další zpracování)
+
+1)na tmep.cz vytvoříme účet
+2)přihlásíme se
+3)ověříme účet přes mail
+4)zvolíme kolonku “moje čidla”
+5)zvolíme “přidat čidlo”
+6)vyplníme název => Jak se bude čidlo jmenovat
+7)vyplníme adresu Domény => adresa, na které budou data zobrazována
+8)do výrobce vybereme LáskaKit.cz => pro info ostatním uživatelů
+9)typ zvolíme Teplota, Vlhkost a Tlak => pro nastavení zobrazení výsledků
+10)hlídač neaktivity čidla , nastavíme na 20 minut => pokud se stane chyba, přijde nám email
+11)geografické umístění => pro umístění sensoru na mapu
+12)zkopírujeme si hodnotu doména pro zasílání hodnot => pro další použití v kódu
+13)Otevřeme si soubor MeteoHackathon.ino
+14)Otevřeme si soubor config.h
+15)V souboru config.h doplníme místo teček v řádku servername adresu našeho čidla z TMEP.cz
+	String serverName = https://……………………/index.php?";
+16)soubor config.h uložíme
+17) otevřeme soubor meteohackathon.ino
+18) Na řádku 91 zadáme jméno naší WiFi a heslo, heslo by mělo mít alespoň 8 znaků
+		res = wm.autoConnect("jméno","heslo");
+19) v Arduino IDE vybereme desku ESP32C3 Dev Module
+20) zvolíme port COM, na kterém je naše deska
+21) kód zkompilujeme a nahrajeme do desky
+22) bez známé wifi se spustí AP, jméno a heslo jsme zadávali v bodě 18, v jejím rozhraní nakonfigurujeme budoucí wifi připojení na již klasickou wifi 
+23) pokud vše funguje, na webu tmep vidíme naše první měření
+
+
+
+
+
+
+Část stavby Štítu
+1) odpojíme programátor od základní desky
+2) kabelem DUPONT propojíme piny VCC a GND programátoru s piny VCC a GND desky
+3) programátor zasuneme do připravené drážky v základně
+4) desku zacvakneme do slotu v krytce základny
+5) šroubem M3x10 přiděláme krytku na základnu
+6) BME280 sensor zasuneme do slotu v základně
+7) kabely uschováme pod okraje základny
+8) sestavíme kryt štítu v pořadí střecha - průchodka - průchodka
+9) šrouby M3x50 přiděláme základnu na kryt štítu
+10) šrouby M3x10 přiděláme rameno na štít - šipka směřuje na stranu, kde bude přichycena stanice na zeď
+11) do připraveného slotu skrz rameno zasuneme USB-C kabel
+12) pokud jsme vše propojili správně, stanice by měla měřit a odesílat data na internet
+
+Všechny soubory z dnešní akce budou zveřejněny na webu a3d.czlan.cz
+Budeme rádi za jakoukoliv zpětnou vazbu, případně i výsledky vašich měření, vše nám můžete zasílat na e-mail a3d@czlan.cz
+
+
+
