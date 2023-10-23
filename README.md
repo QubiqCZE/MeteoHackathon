@@ -6,13 +6,13 @@ Na tento github projekt budeme postupně přidávat vše potřebné pro účastn
 <ul>
 <li>Připravujeme lokální službu pro sběr dat z vašich senzorů.</li>
 <li>Připravujeme další verzi aplikace, která bude umět zobrazit více dat a rozesílat data na více služeb.</li>
-<li>Brzy přidáme zdrojové kódy upraveného programu k Láskakit Meteo Mini.</li>
+<li>Ve složce MeteoMini+BME280 naleznete vše potřebné k tvorbě stejné meteostanice, jako na workshopu</li>
 <li>Brzy přidáme STL soubory pro tisk vlastního radiačního štítu.</li>
 </ul>
 
 <h2>Hardware</h2>
 <ul>
-<li><a href="https://www.laskakit.cz/laskakit-meteo-mini/?variantId=10476">LásskaKit Meteo Mini</a></li>
+<li><a href="https://www.laskakit.cz/laskakit-meteo-mini/?variantId=10476">LáskaKit Meteo Mini</a></li>
 <li><a href="https://www.laskakit.cz/laskakit-bmp280-senzor-tlaku-a-teploty-vzduchu/">LaskaKit BMP280 Senzor tlaku a teploty vzduchu</a></li>
 <li><a href="https://www.laskakit.cz/--sup--stemma-qt--qwiic-jst-sh-4-pin-kabel-5cm/">μŠup, STEMMA QT, Qwiic JST-SH 4-pin kabel - 5cm</a></li>
 <li><a href="https://www.laskakit.cz/baterie-li-po-3-7v-500mah-lipo/">Baterie GeB LiPol Baterie 503035 500mAh 3.7V JST-PH 2.0</a> (volitelně)</li>
