@@ -21,7 +21,7 @@
 WiFiManager wm;
 
 // Custom parameters
-char serverAddress[40] = "3m7jvu-r79hye.tmep.cz";
+char serverAddress[40] = "";
 int sleepTime = 10; // Default sleep time in minutes
 
 WiFiManagerParameter custom_serverAddress("server", "Server Address (max 40 chars)", serverAddress, 40);
